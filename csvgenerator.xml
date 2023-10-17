@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<extension type="component" version="3.9" method="upgrade">
+    <name>CSVGenerator</name>
+    <author>Игорь</author>
+    <authorEmail>cheremuhinigor@vk.com</authorEmail>
+    <version>0.0.1</version>
+    <description></description>
+    <creationDate>Октябрь 2023</creationDate>
+    <administration>
+        <menu>CSVGenerator</menu>
+        <files folder="admin">
+            <filename>csvgenerator.php</filename>
+            <filename>controller.php</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <folder>views</folder>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_csvgenerator.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_csvgenerator.sys.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_csvgenerator.ini</language>
+            <language tag="ru-RU">language/ru-RU/ru-RU.com_csvgenerator.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
